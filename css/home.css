@@ -1,0 +1,62 @@
+html{
+    background-image: url("bg4.png");
+    background-size: cover;
+    background-color: hsla(0,0%,100%,0.40);
+    background-blend-mode: overlay;
+}
+h1, h2{
+    font-size: xx-large;
+    font-family: "Cambria Math";
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+#userDetails{
+    border-width: 2px;
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+#profilePic{
+    width: 250px;
+    height: 250px;
+    vertical-align: text-bottom;
+}
+
+#userBtns{
+    float: right;
+    position: absolute;
+    right: 5%;
+    padding-bottom: 7px;
+}
+.row{
+    display: flex;
+}
+#side {
+    width: 17%;
+    float: left;
+    padding: 10px;
+}
+
+/* Middle column */
+#middle {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+
+
